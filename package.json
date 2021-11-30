@@ -1,0 +1,18 @@
+{
+  "name": "pcap-tcpparse",
+  "version": "1.0.0",
+  "description": "pcap parser files with a simple tcp stack, can display websocket frames as json, included masked ones",
+  "main": "index.js",
+  "bin": "index.js",
+  "dependencies": {
+    "@astronautlabs/bitstream": "^2.1.1",
+    "pcap-parser": "^0.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "autho": "Frédéric GERMAIN",
+  "keywords": ["pcap","wireshark","tcpdump","websocket","tcp"],
+  "license": "GPL-3.0-or-later"
+}
